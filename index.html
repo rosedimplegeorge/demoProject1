@@ -11,7 +11,66 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
-    
+        <section class="mainSection">
+                <div class="title is-1">
+                    <h1>Rose's Jeopardy Game Zone</h1>
+                </div>
+                <div class="subtitle">
+                    <h2>Instructions</h2>
+                     <ul>
+                        <li>Pick a category and a point value.</li>
+                        <li>Click on the chosen box for the question.</li>
+                        <li>Play until you hit the Final Question for the mega Win ...</li>
+                     </ul>
+                </div>
+             </section>
+        <section class="gameBoardSection">
+                    <div class="catogory1"> Bible</div>
+                    <div class="catogory2"> General</div>
+                    <div class="catogory3"> Science</div>
+                    <div class="catogory4"> History</div>
+                    <div class="catogory5"> Movies</div>
+        </section>
+        <section class="oneHundred">
+                <div class="cat1 100">
+                    <button id=bible100>100</button>
+                    <div id=modalQues class="modalQues">
+                        <div id=modalQuesContent class="modalQuesContent">
+                            <span id=closeBtn class="closeBtn">&times;</span>
+                            <p>How many Books are There in the Bible?</p>
+                            <div class="inputRadio">
+                                <input type="radio" name="bq" value="100">100<br>
+                                <input type="radio" name="bq" value="77">77<br>
+                                <input type="radio" name="bq" value="63">63<br>
+                                <input type="radio" name="bq" value="27">27<br>
+                            </div>
+                            <div id=submitButton class="submitButton">
+                                <input type="submit" placeholder="Submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cat2 100">
+                    <button id=general100>100</button>
+                </div>
+                <div class="cat3 100">
+                    <button id=science100>100</button>
+                </div>
+                <div class="cat4 100">
+                    <button id=history100>100</button>
+                </div>
+                <div class="cat5 100">
+                    <button id=movies100>100</button>
+                </div>
+            </section>
+        </section>
+
+        <section class="finalQuestion">
+            <div class="finalQuestionButton"><button>FINAL QUESTION</button></div>
+        </section>
+        <div class="footerSection">
+            <footer class="scoreSection"> Score :</footer>
+        </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
