@@ -8,28 +8,36 @@ questionAnsArray = [
         points :100
     },
     {
-        question12 :"What's the first book in the Bible",
+        question12 :"What's the first book in the Bible?",
         ans21 : "Exodus",
         ans22 : "Revelation",
         ans23 : "pslams",
         correctans12 : "Genesis",
-        points :100
+        points :200
     },
     {
-        question13 :"What's the last book in the Bible",
+        question13 :"What's the last book in the Bible?",
         ans31 : "Exodus",
         ans32 : "Esther",
         ans33 : "pslams",
         correctans13 : "Revelation",
-        points :100
+        points :300
     },
     {
-        question14 :"How many chapters are there inPsalms?",
+        question14 :"How many chapters are there in Psalms?",
         ans41 : 160,
         ans42 : 100,
         ans43 : 99,
         correctans14 : 150,
-        points :100
+        points :400
+    },
+    {
+        question15 :"What's the smallest chapter inthe book of Psalms?",
+        ans51 : 127,
+        ans52 : 100,
+        ans53 : 119,
+        correctans15 : 117,
+        points :500
     }
 
 ];
